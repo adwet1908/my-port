@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Play&family=Preahvihear&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* navbar css */
+
+nav {
+  background: linear-gradient(to right, #90FF94, #3BDEDE);
+  height: 100px;
+}
+
+ul {
+  margin-top: 0px;
+}
+
+nav li {
+  display: inline-flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#Heading {
+  float: left;
+  font-size: 20px;
+}
+
+.nav-item {
+  padding-inline: 50px;
+  padding-top: 16px;
+  float: inline-end;
+  font-size: 15px;
+  color: black;
+
+}
+
+
+.intro {
+  padding-top: 0px;
+  width: 100%;
+  height: 486px;
+  flex-shrink: 0;
+  background: linear-gradient(93deg, rgba(144, 255, 148, 0.39) 0%, rgba(59, 222, 222, 0.33) 100%);
+  filter: blur(0px);
+}
+
+#about {
+  padding-bottom: 10rem;
+  width: 1440px;
+  height: 486px;
+  flex-shrink: 0;
+}
+
+#about-title {
+  color: #000;
+  font-family: 'Preahvihear';
+  font-size: 30px;
+  line-height: normal;
+  text-align: left;
+  padding-left: 30px;
+}
+
+#connect {
+  /* margin-right: 0px; */
+  width: 100%;
+  height: 690px;
+  background: linear-gradient(93deg, rgba(144, 255, 148, 0.39) 0%, rgba(59, 222, 222, 0.33) 100%);
+  filter: blur(0px);
+}
+
+
+#connect h1 {
+  float: left;
+  padding-left: 30px;
+}
+
+h1 {
+  color: #000;
+  text-shadow: -7px 2px 11px rgba(0, 0, 0, 0.25);
+  font-family: 'Preahvihear';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.animation-container {
+  float: right;
+  margin-right: 20px;
+}
+
+/* about section CSS */
+
+.abt-sec1 {
+  margin-left: 30px;
+}
+
+.abt-sec1 h4 {
+  font-size: 19px;
+  font-family: 'Borel';
+}
+
+.abt-sec2 {
+  margin-left: 30px;
+}
+
+.abt-sec2 h4 {
+  font-size: 19px;
+  font-family: 'Borel';
+}
+
+.abt-sec3 {
+  margin-left: 30px;
+}
+
+.abt-sec3 h4 {
+  font-size: 19px;
+  font-family: 'Borel';
+}
+
+
+.connect-links{
+  padding-top: 10rem;
+  float: left;
+}
+
+.link-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.link-button:hover {
+  background-color: #449fdb
+}
